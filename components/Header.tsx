@@ -8,9 +8,10 @@ import { Logo } from "./Logo";
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
-  { label: "Services", href: "/services" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "About Us", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "We Buy Phones", href: "#webuyphones" },
+  { label: "Contact Us", href: "#contact" },
 ];
 
 const Header = () => {

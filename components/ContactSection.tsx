@@ -14,10 +14,10 @@ import {
 gsap.registerPlugin(ScrollTrigger);
 
 const contact = {
-  phone: "+44 7700 900123",
-  phoneLink: "+447700900123",
-  email: "hello@gizmotronics.co.uk",
-  whatsapp: "447700900123",
+  phone: "+44 020 8343 8850",
+  phoneLink: "+442083438850",
+  email: "Gizmotronics247@gmail.com",
+  whatsapp: "447909270786",
 };
 
 export default function ContactSection() {
