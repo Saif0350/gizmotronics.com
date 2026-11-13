@@ -221,7 +221,7 @@ export function Footer() {
           "
         >
           <p className="text-center text-xs font-light leading-6 tracking-wide text-white/70">
-            © {new Date().getFullYear()} Gizmo-Tronics. All rights reserved.
+            © 2026 Gizmo-Tronics. All rights reserved.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">

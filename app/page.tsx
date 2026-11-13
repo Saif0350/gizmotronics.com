@@ -1,4 +1,5 @@
 import HomeAboutSection from "@/components/AboutUs/AboutUs";
+import ContactSection from "@/components/ContactSection";
 import Banner from "@/components/Hero/Banner";
 import ParallaxScrollSection from "@/components/Hero/ParallaxScrollSection";
 import Services from "@/components/Services/Services";
@@ -14,6 +15,7 @@ export default function Home() {
         <Services />
       </div>
       <WeBuyPhones />
+      <ContactSection />
     </main>
   );
 }
