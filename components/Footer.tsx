@@ -26,6 +26,16 @@ const socialLinks = [
     label: "Facebook",
   },
 ];
+const contact = {
+  phone: "+44 020 8343 8850",
+  phoneLink: "+442083438850",
+  email: "Gizmotronics247@gmail.com",
+  whatsapp: "447909270786",
+};
+
+const whatsappUrl = `https://wa.me/${contact.whatsapp}?text=${encodeURIComponent(
+  "Hi Gizmo-Tronics, I'd like to make an enquiry.",
+)}`;
 
 const links = [
   {
@@ -187,7 +197,9 @@ export function Footer() {
           "
         >
           <Link
-            href="/contact"
+            href="https://www.google.com/maps/search/?api=1&query=Gizmotronics%2C%20326%20Ballards%20Ln%2C%20London%20N12%200EY"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex items-center gap-3 text-sm text-white/80 transition-colors hover:text-lightGolden"
           >
             <MapPin size={19} className="shrink-0 text-lightGolden" />
@@ -195,17 +207,14 @@ export function Footer() {
           </Link>
 
           <Link
-            href="/contact"
+            href={whatsappUrl}
             className="group flex items-center gap-3 text-sm text-white/80 transition-colors hover:text-lightGolden"
           >
             <Phone size={19} className="shrink-0 text-lightGolden" />
             <span>Contact Our Team</span>
           </Link>
 
-          <Link
-            href="/contact"
-            className="group flex items-center gap-3 text-sm text-white/80 transition-colors hover:text-lightGolden"
-          >
+          <Link href={whatsappUrl}>
             <Mail size={19} className="shrink-0 text-lightGolden" />
             <span>Send an Enquiry</span>
           </Link>
@@ -215,7 +224,7 @@ export function Footer() {
         <div
           className="
             mt-12 flex flex-col items-center
-            justify-between gap-5
+            justify-center gap-5
             border-t border-white/15 pt-8
             lg:flex-row
           "
@@ -224,7 +233,7 @@ export function Footer() {
             © 2026 Gizmo-Tronics. All rights reserved.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
+          {/* <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
             <Link
               href="/privacy-policy"
               className="text-xs font-medium text-white/70 transition-colors hover:text-lightGolden"
@@ -238,7 +247,7 @@ export function Footer() {
             >
               Terms & Conditions
             </Link>
-          </div>
+          </div> */}
         </div>
       </CompactContainer>
     </footer>
