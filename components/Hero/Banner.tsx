@@ -3,7 +3,10 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="relative z-0 w-full h-[100svh] md:h-[70vh] lg:h-[100svh] overflow-hidden parallax-section">
+    <section
+      id="home-section"
+      className="relative z-0 w-full h-[100svh] md:h-[70vh] lg:h-[100svh] overflow-hidden parallax-section"
+    >
       <div className="relative h-full w-full">
         {/* Background Video */}
         <video
@@ -35,7 +38,7 @@ const Banner = () => {
             </h1>
 
             <Link
-              href="/services"
+              href="#services-section"
               className="inline-block hover:opacity-90 bg-gradient-to-r tracking-wide from-darkGolden to-lightGolden px-6 py-2 rounded text-black transition-opacity"
             >
               Explore Our Services

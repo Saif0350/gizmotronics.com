@@ -7,11 +7,11 @@ import { Menu, X, ArrowUpRight } from "lucide-react";
 import { Logo } from "./Logo";
 
 const navItems = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "We Buy Phones", href: "#webuyphones" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "Home", href: "#home-section" },
+  { label: "About Us", href: "#about-section" },
+  { label: "Services", href: "#services-section" },
+  { label: "We Buy Phones", href: "#we-buy-phones" },
+  { label: "Contact Us", href: "#contact-us-section" },
 ];
 
 const Header = () => {

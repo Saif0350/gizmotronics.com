@@ -51,6 +51,7 @@ export default function ContactSection() {
 
   return (
     <section
+      id="contact-us-section"
       ref={sectionRef}
       className="relative overflow-hidden bg-black py-20 text-white md:py-28"
     >

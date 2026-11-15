@@ -88,6 +88,7 @@ export default function WeBuyPhones() {
 
   return (
     <section
+      id="we-buy-phones"
       ref={sectionRef}
       className="relative isolate overflow-hidden bg-black py-20 text-white md:py-28"
     >

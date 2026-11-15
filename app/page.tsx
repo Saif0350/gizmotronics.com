@@ -11,7 +11,7 @@ export default function Home() {
       <ParallaxScrollSection />
       <Banner />
       <HomeAboutSection />
-      <div className="hidden z-[10] lg:block" key={1}>
+      <div id="services-section" className="hidden z-[10] lg:block" key={1}>
         <Services />
       </div>
       <WeBuyPhones />

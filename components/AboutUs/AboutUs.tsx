@@ -7,7 +7,7 @@ import { CompactContainer } from "../ui/compact-container";
 
 const HomeAboutSection = () => {
   return (
-    <section className="relative z-10 w-full bg-background">
+    <section id="about-section" className="relative z-10 w-full bg-background">
       <CompactContainer className="min-h-screen h-auto flex flex-col justify-center">
         <div className="w-full py-10 md:py-14 lg:py-20 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-stretch">
           {/* Left Image */}
