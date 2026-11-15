@@ -4,6 +4,7 @@ import Banner from "@/components/Hero/Banner";
 import ParallaxScrollSection from "@/components/Hero/ParallaxScrollSection";
 import Services from "@/components/Services/Services";
 import WeBuyPhones from "@/components/WeBuyPhones";
+import WeSellPhonesSection from "@/components/WeSellPhones";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Services />
       </div>
       <WeBuyPhones />
+      <WeSellPhonesSection />
       <ContactSection />
     </main>
   );
